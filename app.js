@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-Ashu:Test123@cluster0.pzpnk.mongodb.net/todolistDB");
+mongoose.connect("Use api of the Mongodb cluster");
 
 const itemSchema = {
   name: String
